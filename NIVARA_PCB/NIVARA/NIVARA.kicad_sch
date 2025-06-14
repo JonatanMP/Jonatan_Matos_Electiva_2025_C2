@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 127 72.39)
-		(size 31.75 39.37)
+		(at 111.76 55.88)
+		(size 38.1 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "7ff0dada-fc46-483c-91ad-b264be8c64cf")
 		(property "Sheetname" "NIVARA_BOARD"
-			(at 127 71.6784 0)
+			(at 111.76 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,12 +31,52 @@
 			)
 		)
 		(property "Sheetfile" "NIVARA_BOARD.kicad_sch"
-			(at 127 112.3446 0)
+			(at 111.76 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "IN_NPN{1,2,Gnd}" input
+			(at 111.76 59.69 180)
+			(uuid "24151b05-f858-420d-b939-629927b3fbb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OP_NPN{1,2,Gnd}" output
+			(at 149.86 59.69 0)
+			(uuid "14583e7a-ac51-42ec-ae3d-e4b31d7c7f83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN_PNP{1,2,Gnd}" input
+			(at 111.76 66.04 180)
+			(uuid "2db12bf7-744e-4b18-8ea6-6bc2006a34d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OP_PNP{1,2,Gnd}" output
+			(at 149.86 66.04 0)
+			(uuid "b177d1f1-1b3e-48d8-9bf6-2d04cd827c6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

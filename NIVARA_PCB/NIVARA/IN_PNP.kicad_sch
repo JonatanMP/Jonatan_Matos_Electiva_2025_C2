@@ -1,0 +1,156 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "843ad529-3594-44e5-acd5-6b8c39ac09b6")
+	(paper "A4")
+	(lib_symbols)
+	(bus_entry
+		(at 30.48 33.02)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eada8f2-bc64-4c1f-8e00-2cf6439e2ad5")
+	)
+	(bus_entry
+		(at 36.83 33.02)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64fda89b-cc59-4f10-a796-ecad46266b57")
+	)
+	(bus_entry
+		(at 25.4 33.02)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d90760-22fb-41a5-acb8-20c7616dd25e")
+	)
+	(bus
+		(pts
+			(xy 36.83 33.02) (xy 44.45 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf47bfd-d032-4b74-a968-6e1c9d3f067f")
+	)
+	(wire
+		(pts
+			(xy 33.02 35.56) (xy 33.02 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6990fe83-900b-479f-8c88-6c5d7818ca34")
+	)
+	(bus
+		(pts
+			(xy 30.48 33.02) (xy 36.83 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69e2f21b-4587-4f1f-aaae-222851df6064")
+	)
+	(bus
+		(pts
+			(xy 25.4 33.02) (xy 30.48 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f19fc55-03f4-479e-a121-f8196bfac370")
+	)
+	(wire
+		(pts
+			(xy 27.94 35.56) (xy 27.94 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "932872a6-cb61-478d-a32d-cf83f57cf7bd")
+	)
+	(bus
+		(pts
+			(xy 29.21 29.21) (xy 25.4 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4fe0720-9e2f-41fa-95d2-754b5dcca6a2")
+	)
+	(wire
+		(pts
+			(xy 39.37 35.56) (xy 39.37 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "decd1cc4-ed65-4e80-94f6-4009f85c78bb")
+	)
+	(bus
+		(pts
+			(xy 25.4 29.21) (xy 25.4 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7e89836-6736-454d-9d2a-40ff6cf66db5")
+	)
+	(label "IN_PNP.1"
+		(at 27.94 36.83 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0515cae9-94f7-40e6-b3bc-858bde090eb7")
+	)
+	(label "IN_PNP.Gnd"
+		(at 33.02 36.83 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "80c81787-890e-4645-bc31-438ccca1013c")
+	)
+	(label "IN_PNP.2"
+		(at 39.37 36.83 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed06db4d-b5f9-4c02-b1ba-80d6a874637f")
+	)
+	(hierarchical_label "IN_PNP{1,2,Gnd}"
+		(shape input)
+		(at 29.21 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8c27601-6ad8-44c6-bcf3-7e277b78006b")
+	)
+)

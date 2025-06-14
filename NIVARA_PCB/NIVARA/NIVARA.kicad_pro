@@ -615,6 +615,14 @@
     [
       "7ff0dada-fc46-483c-91ad-b264be8c64cf",
       "NIVARA_BOARD"
+    ],
+    [
+      "754d74d2-29df-4ba7-837a-61e1e553964e",
+      "IN NPN"
+    ],
+    [
+      "ef84fd20-2576-42bd-b942-99b069e32651",
+      "IN PNP"
     ]
   ],
   "text_variables": {}
