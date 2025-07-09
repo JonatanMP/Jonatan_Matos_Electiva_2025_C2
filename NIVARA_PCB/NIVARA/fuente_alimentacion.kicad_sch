@@ -2726,7 +2726,7 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBERT" ""
+		(property "PART NUMBERT" "AP63203WU-7"
 			(at 83.82 68.58 0)
 			(effects
 				(font

@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "68f4f5fb-f90e-4e3c-9017-16e51be9932c")
+	(uuid "1c176b6c-4333-4820-8d67-7d2e79db9420")
 	(paper "A4")
 	(lib_symbols
 		(symbol "PCM_Diode_AKL:1N4007"
@@ -1701,12 +1701,13 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBERT" ""
+		(property "PART NUMBERT" "SRD-24VDC-SL-C"
 			(at 81.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "5"
@@ -1863,12 +1864,13 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBERT" ""
+		(property "PART NUMBERT" "SRD-24VDC-SL-C"
 			(at 152.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "5"

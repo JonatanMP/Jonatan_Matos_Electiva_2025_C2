@@ -3832,7 +3832,7 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBERT" ""
+		(property "PART NUMBERT" "AT3H4A-CUH-S"
 			(at 44.45 43.18 0)
 			(effects
 				(font
@@ -4367,7 +4367,7 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBERT" ""
+		(property "PART NUMBERT" "AT3H4A-CUH-S"
 			(at 44.45 91.44 0)
 			(effects
 				(font
@@ -5614,7 +5614,7 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBERT" ""
+		(property "PART NUMBERT" "TLP290-4(GB-TP,E(T"
 			(at 269.24 39.37 0)
 			(effects
 				(font
@@ -6429,7 +6429,7 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBERT" ""
+		(property "PART NUMBERT" "TLP290-4(GB-TP,E(T"
 			(at 270.51 82.55 0)
 			(effects
 				(font
@@ -6843,7 +6843,7 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBERT" ""
+		(property "PART NUMBERT" "TLP290-4(GB-TP,E(T"
 			(at 200.66 40.64 0)
 			(effects
 				(font
@@ -8069,7 +8069,7 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBERT" ""
+		(property "PART NUMBERT" "TLP290-4(GB-TP,E(T"
 			(at 200.66 83.82 0)
 			(effects
 				(font
