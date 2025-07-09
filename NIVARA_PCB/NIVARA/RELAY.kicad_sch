@@ -2,9 +2,235 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "9e659d57-2110-422d-9fd3-9f6157015a2e")
+	(uuid "68f4f5fb-f90e-4e3c-9017-16e51be9932c")
 	(paper "A4")
 	(lib_symbols
+		(symbol "PCM_Diode_AKL:1N4007"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4007"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_Diode_THT_AKL:D_DO-41_SOD81_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/5f8ffc5ac30fc86bac97d66040bf5502/1n400x.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DO-41 Diode, Rectifier, 1000V, 1A, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode 1N4007 DO41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4007_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4007_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 1.778 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4007_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "1N4007_1_2"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 0)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_Resistor_AKL:R_0603"
 			(pin_numbers
 				(hide yes)
@@ -920,6 +1146,24 @@
 		)
 	)
 	(junction
+		(at 146.05 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "019a9faf-c5ac-491e-a69a-da5b312e29f1")
+	)
+	(junction
+		(at 74.93 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ca1464f-3cd2-4487-ba27-c324f445b823")
+	)
+	(junction
+		(at 146.05 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82397723-d04a-4ad0-902e-1630f68128fc")
+	)
+	(junction
 		(at 133.35 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -930,6 +1174,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9a754da-2a3c-4770-acd1-ed63b797bcda")
+	)
+	(junction
+		(at 74.93 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6f3b317-8524-40b7-9217-3787e1f9800e")
 	)
 	(wire
 		(pts
@@ -953,7 +1203,17 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 121.92) (xy 146.05 127)
+			(xy 146.05 123.19) (xy 146.05 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e6fffea-3f59-441a-ac5d-73247cad949c")
+	)
+	(wire
+		(pts
+			(xy 146.05 121.92) (xy 146.05 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1013,6 +1273,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 101.6) (xy 146.05 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7564c0ec-cf60-47a7-a71e-3c6f0965bb73")
+	)
+	(wire
+		(pts
 			(xy 132.08 132.08) (xy 133.35 132.08)
 		)
 		(stroke
@@ -1020,6 +1290,16 @@
 			(type default)
 		)
 		(uuid "75b14c52-007f-4ac3-996a-75c97747a6f9")
+	)
+	(wire
+		(pts
+			(xy 66.04 96.52) (xy 74.93 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a610a94-27e2-410c-bc93-3341c97a16f7")
 	)
 	(wire
 		(pts
@@ -1063,6 +1343,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 115.57) (xy 137.16 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "964239ba-784e-441d-8844-5457bed5e0d2")
+	)
+	(wire
+		(pts
 			(xy 82.55 118.11) (xy 82.55 116.84)
 		)
 		(stroke
@@ -1073,6 +1363,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 123.19) (xy 146.05 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0d06e2-e8a0-4bb4-8d02-f3f47d89cb0b")
+	)
+	(wire
+		(pts
 			(xy 153.67 123.19) (xy 153.67 121.92)
 		)
 		(stroke
@@ -1080,6 +1380,26 @@
 			(type default)
 		)
 		(uuid "adb95a11-fd62-4303-80de-f004c5dd89ce")
+	)
+	(wire
+		(pts
+			(xy 66.04 110.49) (xy 66.04 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a0bf05-583d-47d5-be78-80434cd49d4f")
+	)
+	(wire
+		(pts
+			(xy 66.04 102.87) (xy 66.04 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e46407-a770-4ed9-a60c-55e59a899016")
 	)
 	(wire
 		(pts
@@ -1113,6 +1433,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 116.84) (xy 74.93 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d257c01f-c16f-4e20-803c-dfc76b27970d")
+	)
+	(wire
+		(pts
 			(xy 74.93 137.16) (xy 74.93 132.08)
 		)
 		(stroke
@@ -1120,6 +1450,16 @@
 			(type default)
 		)
 		(uuid "e90d0027-3717-4798-a957-b126a0ce1d03")
+	)
+	(wire
+		(pts
+			(xy 137.16 107.95) (xy 137.16 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee13b9f3-eea7-46f4-ab96-c97de95aaa50")
 	)
 	(wire
 		(pts
@@ -2146,6 +2486,85 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Diode_AKL:1N4007")
+		(at 137.16 111.76 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3d495bd-4c1f-4251-afac-0ee149bc467d")
+		(property "Reference" "D1"
+			(at 134.62 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 134.62 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/5f8ffc5ac30fc86bac97d66040bf5502/1n400x.pdf"
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DO-41 Diode, Rectifier, 1000V, 1A, Alternate KiCad Library"
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBERT" "1N4007W 46MIL"
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0a8e902-4c7c-48f7-80cf-b5687a2a02aa")
+		)
+		(pin "2"
+			(uuid "07c19cfd-02e3-4f83-be11-e09bc44d91f2")
+		)
+		(instances
+			(project ""
+				(path "/6298d7d5-28da-40bf-9586-24a8e5c02b82/7ff0dada-fc46-483c-91ad-b264be8c64cf/c514a597-3b7b-41fc-8c73-66bc4d01b561"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 62.23 137.16 0)
 		(unit 1)
@@ -2206,6 +2625,85 @@
 			(project "NIVARA"
 				(path "/6298d7d5-28da-40bf-9586-24a8e5c02b82/7ff0dada-fc46-483c-91ad-b264be8c64cf/c514a597-3b7b-41fc-8c73-66bc4d01b561"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_AKL:1N4007")
+		(at 66.04 106.68 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7547d45-000f-435c-ab3e-e19e9bed7284")
+		(property "Reference" "D2"
+			(at 63.5 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 63.5 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/5f8ffc5ac30fc86bac97d66040bf5502/1n400x.pdf"
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DO-41 Diode, Rectifier, 1000V, 1A, Alternate KiCad Library"
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBERT" "1N4007W 46MIL"
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24e353e6-1fd3-4fa0-818c-87d55d43adc0")
+		)
+		(pin "2"
+			(uuid "03e77dbf-b857-4d8e-b350-77aa06e7c52b")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/6298d7d5-28da-40bf-9586-24a8e5c02b82/7ff0dada-fc46-483c-91ad-b264be8c64cf/c514a597-3b7b-41fc-8c73-66bc4d01b561"
+					(reference "D2")
 					(unit 1)
 				)
 			)

@@ -581,7 +581,7 @@
           "group_by": false,
           "label": "PART NUMBERT",
           "name": "PART NUMBERT",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
