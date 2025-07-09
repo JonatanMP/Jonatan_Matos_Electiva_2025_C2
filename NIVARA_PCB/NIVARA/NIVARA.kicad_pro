@@ -570,6 +570,18 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART NUMBERT",
+          "name": "PART NUMBERT",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -639,6 +651,10 @@
     [
       "29ebc67c-5a54-4905-ab94-5f65b3a12807",
       "fuente_alimentacion"
+    ],
+    [
+      "c514a597-3b7b-41fc-8c73-66bc4d01b561",
+      "RELAY"
     ]
   ],
   "text_variables": {}

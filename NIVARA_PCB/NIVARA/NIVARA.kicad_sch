@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 111.76 55.88)
-		(size 38.1 39.37)
+		(at 110.49 36.83)
+		(size 38.1 55.88)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "7ff0dada-fc46-483c-91ad-b264be8c64cf")
 		(property "Sheetname" "NIVARA_BOARD"
-			(at 111.76 55.1684 0)
+			(at 110.49 36.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "NIVARA_BOARD.kicad_sch"
-			(at 111.76 95.8346 0)
+			(at 110.49 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39,9 +39,9 @@
 				(justify left top)
 			)
 		)
-		(pin "IN_NPN{1,2,Gnd}" input
-			(at 111.76 59.69 180)
-			(uuid "24151b05-f858-420d-b939-629927b3fbb7")
+		(pin "PNP_IN2" input
+			(at 110.49 48.26 180)
+			(uuid "aa3caecc-d442-4e0a-97bd-85535df274f7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,19 +49,9 @@
 				(justify left)
 			)
 		)
-		(pin "OP_NPN{1,2,Gnd}" output
-			(at 149.86 59.69 0)
-			(uuid "14583e7a-ac51-42ec-ae3d-e4b31d7c7f83")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IN_PNP{1,2,Gnd}" input
-			(at 111.76 66.04 180)
-			(uuid "2db12bf7-744e-4b18-8ea6-6bc2006a34d1")
+		(pin "PNP_IN1" input
+			(at 110.49 45.72 180)
+			(uuid "c3c23595-dfa8-4109-8363-bc5efed144ac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69,14 +59,84 @@
 				(justify left)
 			)
 		)
-		(pin "OP_PNP{1,2,Gnd}" output
-			(at 149.86 66.04 0)
-			(uuid "b177d1f1-1b3e-48d8-9bf6-2d04cd827c6c")
+		(pin "NPN_IN2" input
+			(at 110.49 43.18 180)
+			(uuid "89f471f9-514b-4332-90f6-1a9f29faef87")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+			)
+		)
+		(pin "NPN_IN1" input
+			(at 110.49 40.64 180)
+			(uuid "1202f4f5-5284-4ba8-9459-c671b4cdce48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REL_NC2" output
+			(at 110.49 80.01 180)
+			(uuid "73d1a400-70d6-48e0-8512-189f0ed5a0ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REL_NO2" output
+			(at 110.49 74.93 180)
+			(uuid "fe06d695-2f6b-4887-b067-b60aa9bb0513")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REL_COM2" input
+			(at 110.49 77.47 180)
+			(uuid "fa6c9f19-346e-43ce-836a-5d8452be9e3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REL_NC1" output
+			(at 110.49 88.9 180)
+			(uuid "b369f2be-64c0-4774-84f8-b1e2054bffe2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REL_NO1" output
+			(at 110.49 83.82 180)
+			(uuid "7ae9415e-480e-4387-ae99-56661bee0d17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REL_COM1" input
+			(at 110.49 86.36 180)
+			(uuid "90cac33c-cca0-41df-b551-9f04091ed7a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

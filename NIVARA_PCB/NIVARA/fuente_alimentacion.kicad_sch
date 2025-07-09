@@ -1859,6 +1859,14 @@
 				(hide yes)
 			)
 		)
+		(property "PART NUMBERT" ""
+			(at 115.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0a5e080e-8f4a-4ba3-a153-29b584bf4745")
 		)
@@ -1925,6 +1933,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PART NUMBERT" ""
+			(at 106.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1995,6 +2011,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PART NUMBERT" ""
+			(at 125.73 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2199,6 +2223,14 @@
 				(hide yes)
 			)
 		)
+		(property "PART NUMBERT" ""
+			(at 151.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8eb51ed8-a5d4-4c2e-9469-f44c8809a7e6")
 		)
@@ -2335,6 +2367,14 @@
 				(hide yes)
 			)
 		)
+		(property "PART NUMBERT" ""
+			(at 125.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1d9ef183-3a21-487a-a77f-bf009e505489")
 		)
@@ -2401,6 +2441,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PART NUMBERT" ""
+			(at 99.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2471,6 +2519,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PART NUMBERT" ""
+			(at 132.08 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2670,6 +2726,14 @@
 				(hide yes)
 			)
 		)
+		(property "PART NUMBERT" ""
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "3c0627f2-7f69-4d2e-8d15-27230118d2c6")
 		)
@@ -2818,6 +2882,14 @@
 				(hide yes)
 			)
 		)
+		(property "PART NUMBERT" ""
+			(at 137.16 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "71ef2a95-a208-4d26-baba-295a951bbd12")
 		)
@@ -2954,6 +3026,14 @@
 				(hide yes)
 			)
 		)
+		(property "PART NUMBERT" ""
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4a722e45-1738-4b57-beed-6ac8ccbbdb54")
 		)
@@ -3022,6 +3102,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PART NUMBERT" ""
+			(at 125.73 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
