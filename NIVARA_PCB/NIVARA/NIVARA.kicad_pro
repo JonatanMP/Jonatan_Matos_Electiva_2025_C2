@@ -655,6 +655,10 @@
     [
       "c514a597-3b7b-41fc-8c73-66bc4d01b561",
       "RELAY"
+    ],
+    [
+      "48a464e8-a5ed-43b1-9b1b-2c845d4bc246",
+      "RS_485"
     ]
   ],
   "text_variables": {}

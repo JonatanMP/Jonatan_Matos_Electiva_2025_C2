@@ -2104,82 +2104,6 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_AKL:R_0603")
-		(at 106.68 73.66 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "288e4c6a-8b9e-42af-b56e-59d64725460c")
-		(property "Reference" "R24"
-			(at 106.68 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 95.25 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 106.68 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBERT" ""
-			(at 106.68 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "959b8497-daa0-47cf-ba69-8ca3e4c8fd01")
-		)
-		(pin "1"
-			(uuid "14e7d908-c62f-40eb-8879-beb4e11ba13b")
-		)
-		(instances
-			(project "NIVARA"
-				(path "/6298d7d5-28da-40bf-9586-24a8e5c02b82/7ff0dada-fc46-483c-91ad-b264be8c64cf/ef84fd20-2576-42bd-b942-99b069e32651"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Resistor_AKL:R_0603")
 		(at 157.48 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2461,6 +2385,83 @@
 			(project ""
 				(path "/6298d7d5-28da-40bf-9586-24a8e5c02b82/7ff0dada-fc46-483c-91ad-b264be8c64cf/ef84fd20-2576-42bd-b942-99b069e32651"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_AKL:R_0603")
+		(at 106.68 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c70a589-2774-4a41-8ad7-3355a26d5fad")
+		(property "Reference" "R24"
+			(at 106.68 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 106.68 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 95.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBERT" "CRCW12061K00FKEAHP"
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "10e36f38-f432-4e4f-b24d-3771a31bdd94")
+		)
+		(pin "1"
+			(uuid "933d3ffb-72eb-43b4-a8f4-cc97d54d3b42")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/6298d7d5-28da-40bf-9586-24a8e5c02b82/7ff0dada-fc46-483c-91ad-b264be8c64cf/ef84fd20-2576-42bd-b942-99b069e32651"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3515,7 +3516,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e6c38328-3d8f-43b1-a075-6e526048c96a")
+		(uuid "e1e6b7bb-718b-4cd7-9fa0-08587f470a96")
 		(property "Reference" "R25"
 			(at 106.68 115.57 90)
 			(effects
@@ -3532,7 +3533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 95.25 121.92 0)
 			(effects
 				(font
@@ -3559,19 +3560,20 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBERT" ""
+		(property "PART NUMBERT" "CRCW12061K00FKEAHP"
 			(at 106.68 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "b6fb299e-fb20-409e-b232-9d61813b6528")
+			(uuid "f71a8ff1-3b3a-4f50-aaf6-adb5ca5d8dca")
 		)
 		(pin "1"
-			(uuid "8ac259dd-2440-4dd0-b386-a1396b62492a")
+			(uuid "1c798b91-019f-4948-9689-3ea2836d4f25")
 		)
 		(instances
 			(project "NIVARA"
