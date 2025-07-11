@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 146.05 33.02) (xy 147.32 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a0253a-ae1e-4816-a858-887ca02307c8")
+	)
+	(wire
+		(pts
 			(xy 30.48 83.82) (xy 34.29 83.82)
 		)
 		(stroke
@@ -97,6 +107,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 36.83) (xy 147.32 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c0d905-949e-4273-bb52-bc2c994f57d5")
+	)
+	(wire
+		(pts
 			(xy 30.48 49.53) (xy 34.29 49.53)
 		)
 		(stroke
@@ -115,6 +135,28 @@
 			(justify right)
 		)
 		(uuid "23575cdd-04d9-4928-a017-ebd19ef0eb27")
+	)
+	(hierarchical_label "RS_A"
+		(shape bidirectional)
+		(at 147.32 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ab546c0-6910-46f2-be93-9957f9cb9c6c")
+	)
+	(hierarchical_label "RS_B"
+		(shape bidirectional)
+		(at 147.32 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "457ae790-5fa5-4207-9b27-b367b16c3623")
 	)
 	(hierarchical_label "NPN_IN2"
 		(shape input)
@@ -216,7 +258,7 @@
 		(uuid "fadf8282-8e73-4334-b2d7-4e6034c441c9")
 	)
 	(sheet
-		(at 29.21 165.1)
+		(at 29.21 167.64)
 		(size 24.13 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -232,7 +274,7 @@
 		)
 		(uuid "29ebc67c-5a54-4905-ab94-5f65b3a12807")
 		(property "Sheetname" "fuente_alimentacion"
-			(at 29.21 164.3884 0)
+			(at 29.21 166.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -241,7 +283,7 @@
 			)
 		)
 		(property "Sheetfile" "fuente_alimentacion.kicad_sch"
-			(at 29.21 180.9246 0)
+			(at 29.21 183.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -258,8 +300,8 @@
 		)
 	)
 	(sheet
-		(at 93.98 27.94)
-		(size 19.05 11.43)
+		(at 125.73 29.21)
+		(size 20.32 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -274,7 +316,7 @@
 		)
 		(uuid "48a464e8-a5ed-43b1-9b1b-2c845d4bc246")
 		(property "Sheetname" "RS_485"
-			(at 93.98 27.2284 0)
+			(at 125.73 28.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -283,12 +325,52 @@
 			)
 		)
 		(property "Sheetfile" "RS_485.kicad_sch"
-			(at 93.98 39.9546 0)
+			(at 125.73 41.2246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "TX" bidirectional
+			(at 125.73 36.83 180)
+			(uuid "bb525dfc-773b-409a-8355-33368d4f03ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX" bidirectional
+			(at 125.73 33.02 180)
+			(uuid "36d1cad6-5c66-42a7-a3b6-b9ef38a8cfaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A" bidirectional
+			(at 146.05 36.83 0)
+			(uuid "8c4aced6-3c38-4c94-bbc2-f9ff44e67100")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B" bidirectional
+			(at 146.05 33.02 0)
+			(uuid "c523a229-039c-44a7-bb5e-9f6e9910c520")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

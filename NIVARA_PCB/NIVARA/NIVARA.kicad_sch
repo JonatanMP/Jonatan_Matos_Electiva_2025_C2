@@ -139,6 +139,26 @@
 				(justify left)
 			)
 		)
+		(pin "RS_B" bidirectional
+			(at 148.59 86.36 0)
+			(uuid "bcd6d2b2-5b31-4e3f-86de-afc4c5a449b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS_A" bidirectional
+			(at 148.59 88.9 0)
+			(uuid "375a2d7a-425c-4b64-af8d-2ec620852d77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "NIVARA"
 				(path "/6298d7d5-28da-40bf-9586-24a8e5c02b82"
