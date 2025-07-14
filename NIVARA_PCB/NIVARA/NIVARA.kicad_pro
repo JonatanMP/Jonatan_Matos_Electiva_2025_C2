@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -179,7 +185,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -206,7 +214,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -578,7 +591,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "PART NUMBERT",
           "name": "PART NUMBERT",
           "show": true
@@ -649,6 +662,10 @@
       "IN PNP"
     ],
     [
+      "83581511-a4ee-4ab3-83b5-847131b17a04",
+      "OUT_PNP"
+    ],
+    [
       "29ebc67c-5a54-4905-ab94-5f65b3a12807",
       "fuente_alimentacion"
     ],
@@ -659,6 +676,14 @@
     [
       "48a464e8-a5ed-43b1-9b1b-2c845d4bc246",
       "RS_485"
+    ],
+    [
+      "e83b750d-d99e-4d1f-827c-e43e7f4ff994",
+      "OUT_NPN"
+    ],
+    [
+      "0f260378-83c0-4366-bf66-bb63726499fd",
+      "IN D"
     ]
   ],
   "text_variables": {}

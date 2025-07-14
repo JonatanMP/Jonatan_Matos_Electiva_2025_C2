@@ -1813,28 +1813,6 @@
 		)
 		(uuid "f04d408b-5ff0-4e48-9274-e5b20b704dad")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 62.23 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2ff019bc-2f15-42f4-be81-85d87fdba7ed")
-	)
-	(hierarchical_label "VCC"
-		(shape input)
-		(at 62.23 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d48d4d3b-8dd2-45b7-aa28-eff5ce340966")
-	)
 	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0603")
 		(at 115.57 68.58 0)
@@ -2529,7 +2507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 132.08 55.88 0)
 			(effects
 				(font
