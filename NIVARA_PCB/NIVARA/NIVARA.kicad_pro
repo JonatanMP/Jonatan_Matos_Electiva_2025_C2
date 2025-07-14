@@ -666,12 +666,12 @@
       "OUT_PNP"
     ],
     [
-      "29ebc67c-5a54-4905-ab94-5f65b3a12807",
-      "fuente_alimentacion"
-    ],
-    [
       "c514a597-3b7b-41fc-8c73-66bc4d01b561",
       "RELAY"
+    ],
+    [
+      "29ebc67c-5a54-4905-ab94-5f65b3a12807",
+      "fuente_alimentacion"
     ],
     [
       "48a464e8-a5ed-43b1-9b1b-2c845d4bc246",
@@ -682,8 +682,36 @@
       "OUT_NPN"
     ],
     [
+      "5d93a5a6-7f1b-40ed-9a0a-d33670fd790d",
+      "IN A 0-10V"
+    ],
+    [
       "0f260378-83c0-4366-bf66-bb63726499fd",
       "IN D"
+    ],
+    [
+      "5f7419b9-a365-44ee-a39a-fe132ae08548",
+      "IN A 0-32V"
+    ],
+    [
+      "a36ca0f9-b60f-4d66-8661-8d14756d5f2b",
+      "IN A 4-20mA"
+    ],
+    [
+      "34eccd05-06f7-4b37-a228-f349577fb821",
+      "OUT A 0-05V"
+    ],
+    [
+      "27fcba6f-4116-4b57-87c7-0cd3789c6248",
+      "OUT A 0-10V"
+    ],
+    [
+      "0dbe716b-76f5-4507-b2ff-78820932bcc2",
+      "OUT A 4-20mA"
+    ],
+    [
+      "f3254285-1e0e-4dcc-8694-b92c90374f4d",
+      "ESP32 S3"
     ]
   ],
   "text_variables": {}
