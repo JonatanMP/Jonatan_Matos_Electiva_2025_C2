@@ -5,4 +5,125 @@
 	(uuid "53564c62-8a66-4bd0-95ce-d880dae539ee")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "D_IN2"
+		(shape input)
+		(at 27.94 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d2ac76b-2775-463e-a991-a8c378295b80")
+	)
+	(hierarchical_label "RX"
+		(shape bidirectional)
+		(at 27.94 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30cf542c-74f4-4f2f-b7f0-31a1b74548ff")
+	)
+	(hierarchical_label "NPN_IN1"
+		(shape input)
+		(at 27.94 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "604463ac-a505-410a-8949-2d7add3e54df")
+	)
+	(hierarchical_label "PNP_IN2"
+		(shape input)
+		(at 27.94 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d5c9c3c-9381-403f-9d2a-22579fd53a8a")
+	)
+	(hierarchical_label "PNP_IN1"
+		(shape input)
+		(at 27.94 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f7a651f-b9e4-4554-9841-fa6cf62368cb")
+	)
+	(hierarchical_label "NPN_IN2"
+		(shape input)
+		(at 27.94 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73168c26-7fd7-4b26-9cd6-3a95f747b542")
+	)
+	(hierarchical_label "A_IN4_20"
+		(shape input)
+		(at 27.94 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74bc464d-22a3-408d-ba25-b25dcb6ec98a")
+	)
+	(hierarchical_label "A_IN0_32"
+		(shape input)
+		(at 27.94 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a10b1555-c4ee-4d44-84ff-a375fd82ac98")
+	)
+	(hierarchical_label "D_IN1"
+		(shape input)
+		(at 27.94 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec5ea7c0-ae38-48d0-a770-fd0c017c6bad")
+	)
+	(hierarchical_label "A_IN0_10"
+		(shape input)
+		(at 27.94 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fcae0128-f1ba-4100-ab09-274c7172cc4a")
+	)
+	(hierarchical_label "TX"
+		(shape bidirectional)
+		(at 27.94 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff7a5864-20a7-4ed5-afb1-b26a88d7d38d")
+	)
 )
