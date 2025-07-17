@@ -2241,7 +2241,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_0603"
+		(property "Value" "1uF"
 			(at 100.33 72.3899 0)
 			(effects
 				(font
@@ -2277,7 +2277,7 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBERT" ""
+		(property "PART NUMBERT" "CL10A105KB8NNNC"
 			(at 96.52 71.12 0)
 			(effects
 				(font
@@ -2517,7 +2517,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_0603"
+		(property "Value" "1uF"
 			(at 100.33 120.6499 0)
 			(effects
 				(font
@@ -2553,7 +2553,7 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBERT" ""
+		(property "PART NUMBERT" "CL10A105KB8NNNC"
 			(at 96.52 119.38 0)
 			(effects
 				(font
