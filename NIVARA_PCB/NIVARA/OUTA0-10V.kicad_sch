@@ -1352,12 +1352,13 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBERT" ""
+		(property "PART NUMBERT" "CC0603KRX7R9BB104"
 			(at 78.74 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"

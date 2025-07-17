@@ -4338,7 +4338,7 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBERT" ""
+		(property "PART NUMBERT" "CC0603KRX7R9BB104"
 			(at 111.76 46.99 0)
 			(effects
 				(font
