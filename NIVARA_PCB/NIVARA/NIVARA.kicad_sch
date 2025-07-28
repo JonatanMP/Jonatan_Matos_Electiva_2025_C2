@@ -1053,6 +1053,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 68.58) (xy 110.49 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a1940d9-1b07-427a-b00f-c533702d1877")
+	)
+	(wire
+		(pts
 			(xy 107.95 44.45) (xy 110.49 44.45)
 		)
 		(stroke
@@ -1123,16 +1133,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 71.12) (xy 107.95 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c19756a-ef98-4b29-bf66-3bc854a6dc27")
-	)
-	(wire
-		(pts
 			(xy 151.13 86.36) (xy 148.59 86.36)
 		)
 		(stroke
@@ -1140,16 +1140,6 @@
 			(type default)
 		)
 		(uuid "a38a9f61-9f5f-4358-88a2-27e9fea753e8")
-	)
-	(wire
-		(pts
-			(xy 110.49 68.58) (xy 107.95 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6f2b057-4bc6-4d3d-9d70-0ba74430d936")
 	)
 	(wire
 		(pts
@@ -1190,6 +1180,16 @@
 			(type default)
 		)
 		(uuid "e1588db0-19ff-4784-b05e-3fa402aa452d")
+	)
+	(wire
+		(pts
+			(xy 107.95 71.12) (xy 110.49 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3447bbe-c225-4ce5-a9e8-39a45adbfa74")
 	)
 	(wire
 		(pts
@@ -2531,7 +2531,7 @@
 			)
 		)
 		(pin "RS_B" bidirectional
-			(at 110.49 68.58 180)
+			(at 110.49 71.12 180)
 			(uuid "bcd6d2b2-5b31-4e3f-86de-afc4c5a449b2")
 			(effects
 				(font
@@ -2541,7 +2541,7 @@
 			)
 		)
 		(pin "RS_A" bidirectional
-			(at 110.49 71.12 180)
+			(at 110.49 68.58 180)
 			(uuid "375a2d7a-425c-4b64-af8d-2ec620852d77")
 			(effects
 				(font

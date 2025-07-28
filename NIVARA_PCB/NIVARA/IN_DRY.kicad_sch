@@ -1,0 +1,216 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "95b5ec86-542e-45b7-baa0-aa6269324e26")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 53.34 67.31) (xy 54.61 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59fcc9d9-3f96-4748-a890-d7eaa6584566")
+	)
+	(wire
+		(pts
+			(xy 78.74 92.71) (xy 81.28 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83b99a25-99cc-435c-a527-b3162c41b774")
+	)
+	(wire
+		(pts
+			(xy 78.74 67.31) (xy 81.28 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c61b3baa-1e23-45e7-a678-b343dd3625e1")
+	)
+	(wire
+		(pts
+			(xy 53.34 92.71) (xy 54.61 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb917290-338e-4183-842e-3d54d137a00d")
+	)
+	(hierarchical_label "OUT_2"
+		(shape output)
+		(at 81.28 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ea5c4b6-ad74-41d3-bf96-9b2925c03fd7")
+	)
+	(hierarchical_label "IN_2"
+		(shape input)
+		(at 53.34 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7537f0a7-adba-42c7-9c76-64363484aaf2")
+	)
+	(hierarchical_label "IN_1"
+		(shape input)
+		(at 53.34 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf011d92-b661-4454-9ca6-94aa39c96aff")
+	)
+	(hierarchical_label "OUT_1"
+		(shape output)
+		(at 81.28 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e354c98b-ca1f-4090-a8eb-94d2751f7ce9")
+	)
+	(sheet
+		(at 54.61 62.23)
+		(size 24.13 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c6854fd-fd88-4f29-bf8b-bede240659d7")
+		(property "Sheetname" "IN DRY Opto1"
+			(at 54.61 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IN_DRY_Opto.kicad_sch"
+			(at 54.61 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 54.61 67.31 180)
+			(uuid "6bc36c3e-7a43-4ee7-be99-9691710e718d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 78.74 67.31 0)
+			(uuid "de2cea43-6092-41b9-9ba8-17587a11d998")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "NIVARA"
+				(path "/6298d7d5-28da-40bf-9586-24a8e5c02b82/7ff0dada-fc46-483c-91ad-b264be8c64cf/0f260378-83c0-4366-bf66-bb63726499fd"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 87.63)
+		(size 24.13 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7f7e2be0-af35-4d7b-9517-c789a6ac11ce")
+		(property "Sheetname" "IN DRY Opto"
+			(at 54.61 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IN_DRY_Opto.kicad_sch"
+			(at 54.61 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 54.61 92.71 180)
+			(uuid "78b461a2-3591-4e88-89a9-9c1a1a902668")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 78.74 92.71 0)
+			(uuid "a9c767f2-c8ca-4f74-8895-0c7466bf97bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "NIVARA"
+				(path "/6298d7d5-28da-40bf-9586-24a8e5c02b82/7ff0dada-fc46-483c-91ad-b264be8c64cf/0f260378-83c0-4366-bf66-bb63726499fd"
+					(page "20")
+				)
+			)
+		)
+	)
+)

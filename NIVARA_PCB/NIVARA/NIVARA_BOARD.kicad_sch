@@ -1258,7 +1258,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0f260378-83c0-4366-bf66-bb63726499fd")
-		(property "Sheetname" "IN D"
+		(property "Sheetname" "IN DRY"
 			(at 34.29 64.0584 0)
 			(effects
 				(font
@@ -1267,7 +1267,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "IN_D.kicad_sch"
+		(property "Sheetfile" "IN_DRY.kicad_sch"
 			(at 34.29 76.7846 0)
 			(effects
 				(font
@@ -2252,29 +2252,9 @@
 				(justify left)
 			)
 		)
-		(pin "D_IN2" input
-			(at 66.04 73.66 180)
-			(uuid "160588e6-d080-45c5-a42b-fe35d494dc25")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PNP_IN1" input
 			(at 66.04 49.53 180)
 			(uuid "b20c0131-3775-4a2f-8e11-a864a43bfeef")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "D_IN1" input
-			(at 66.04 67.31 180)
-			(uuid "2ae139df-ecbd-44f8-8ed2-4a5369ffadc2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,9 +2392,29 @@
 				(justify right)
 			)
 		)
-		(pin "A_IN4_20" output
+		(pin "A_IN4_20" input
 			(at 66.04 138.43 180)
 			(uuid "de2f501d-ebe2-41fd-8fd5-f99baf0dba57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRY_IN2" input
+			(at 66.04 73.66 180)
+			(uuid "14badfb2-753a-4fda-a73a-3756a9446900")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRY_IN1" input
+			(at 66.04 67.31 180)
+			(uuid "be394422-33dd-4c13-828c-46613bf122d3")
 			(effects
 				(font
 					(size 1.27 1.27)
