@@ -1,0 +1,12 @@
+2025-07-29 18:11:18,385 DEBUG: Running transform on 1 selected items
+2025-07-29 18:11:18,387 DEBUG: Selected item is a footprint
+2025-07-29 18:11:18,400 DEBUG: Calculated transform center: (70421200, 116116001)
+2025-07-29 18:11:18,402 DEBUG: Transforming drawing type 5 (Graphic) at (69588603, 115644703)
+2025-07-29 18:11:18,402 DEBUG: Drawing is PCB_SHAPE
+2025-07-29 18:11:18,403 DEBUG: Transforminig shape type Polygon
+2025-07-29 18:11:18,403 DEBUG: Polygon shape has 1 outlines
+2025-07-29 18:11:18,405 DEBUG: Outline has 167 vertices
+2025-07-29 18:11:18,408 DEBUG: Transforming text 'kibuzzard-6886CB2B'
+2025-07-29 18:11:18,412 DEBUG: Transforming text 'G***'
+2025-07-29 18:11:18,412 DEBUG: Replacing footprint on board with transformed version
+2025-07-29 18:11:18,416 DEBUG: Done

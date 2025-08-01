@@ -584,17 +584,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 57.15) (xy 34.29 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "025c5828-b96d-4a6f-8ba0-3af1adf63a2f")
-	)
-	(wire
-		(pts
-			(xy 34.29 48.26) (xy 34.29 44.45)
+			(xy 34.29 44.45) (xy 34.29 46.99)
 		)
 		(stroke
 			(width 0)
@@ -641,6 +631,16 @@
 			(type default)
 		)
 		(uuid "c109e6e0-10c1-4a09-9411-316beb8cb25c")
+	)
+	(wire
+		(pts
+			(xy 34.29 54.61) (xy 34.29 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c28151c3-41a3-4de8-9955-c4624f19f8aa")
 	)
 	(wire
 		(pts
@@ -751,85 +751,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_0603")
-		(at 34.29 52.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4bcac175-c18f-4053-a669-fa83cb220988")
-		(property "Reference" "R6"
-			(at 36.83 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1K"
-			(at 36.83 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 34.29 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 34.29 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBERT" "RC0603FR-071KL"
-			(at 34.29 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2c7e3ae5-f8d3-42db-b878-c6c570c0b695")
-		)
-		(pin "1"
-			(uuid "58333ad7-6a71-4bab-97b9-d0c4dda90213")
-		)
-		(instances
-			(project "NIVARA"
-				(path "/6298d7d5-28da-40bf-9586-24a8e5c02b82/7ff0dada-fc46-483c-91ad-b264be8c64cf/5f7419b9-a365-44ee-a39a-fe132ae08548"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0603")
 		(at 44.45 50.8 180)
 		(unit 1)
@@ -901,6 +822,84 @@
 			(project "NIVARA"
 				(path "/6298d7d5-28da-40bf-9586-24a8e5c02b82/7ff0dada-fc46-483c-91ad-b264be8c64cf/5f7419b9-a365-44ee-a39a-fe132ae08548"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_AKL:R_0603")
+		(at 34.29 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7863c3af-c568-4314-9525-4762ff078df0")
+		(property "Reference" "R18"
+			(at 34.29 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.5K"
+			(at 33.02 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 34.29 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 34.29 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBERT" "FRQ0805F2501TS"
+			(at 34.29 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "470bd96e-b0a6-4d03-9536-70cda9047d89")
+		)
+		(pin "2"
+			(uuid "8c7b24cf-571f-4a47-ba82-e8d10316bea7")
+		)
+		(instances
+			(project "NIVARA"
+				(path "/6298d7d5-28da-40bf-9586-24a8e5c02b82/7ff0dada-fc46-483c-91ad-b264be8c64cf/5f7419b9-a365-44ee-a39a-fe132ae08548"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -981,8 +980,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "abb62800-a7a4-470a-b15d-9d6152c86a7e")
-		(property "Reference" "R42"
+		(uuid "f0f21c2c-4547-4373-abc8-f219952f15bb")
+		(property "Reference" "R6"
 			(at 36.83 35.5599 0)
 			(effects
 				(font
@@ -991,7 +990,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "22K"
 			(at 36.83 38.0999 0)
 			(effects
 				(font
@@ -1027,24 +1026,25 @@
 				(hide yes)
 			)
 		)
-		(property "PART NUMBERT" ""
+		(property "PART NUMBERT" "RC0603FR-0722KL"
 			(at 34.29 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "48fb2222-19ac-4805-abcf-74276d46e644")
-		)
 		(pin "1"
-			(uuid "5108cc2f-e988-4058-a29d-7f97115deb2b")
+			(uuid "413f6c6e-c26d-44c3-aeb9-102360327551")
+		)
+		(pin "2"
+			(uuid "71c3e26e-f0cb-4ebf-a1d6-2182f114ac0b")
 		)
 		(instances
 			(project "NIVARA"
 				(path "/6298d7d5-28da-40bf-9586-24a8e5c02b82/7ff0dada-fc46-483c-91ad-b264be8c64cf/5f7419b9-a365-44ee-a39a-fe132ae08548"
-					(reference "R42")
+					(reference "R6")
 					(unit 1)
 				)
 			)

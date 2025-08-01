@@ -961,6 +961,22 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 110.49 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "815f8b67-8b93-4729-a0d5-00441e986cea")
+	)
+	(wire
+		(pts
+			(xy 107.95 53.34) (xy 110.49 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0094eb0a-6d78-40d0-a09d-8dd6e578f79b")
+	)
 	(wire
 		(pts
 			(xy 148.59 50.8) (xy 151.13 50.8)
@@ -970,6 +986,16 @@
 			(type default)
 		)
 		(uuid "0e40f080-ecca-4a47-92d7-089dfda407e3")
+	)
+	(wire
+		(pts
+			(xy 107.95 50.8) (xy 110.49 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff6e4bd-3e95-41f2-bd96-426584f02538")
 	)
 	(wire
 		(pts
@@ -1033,6 +1059,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 44.45) (xy 110.49 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45db0fc5-04b7-4750-88e1-f7a4c76552a4")
+	)
+	(wire
+		(pts
 			(xy 31.75 27.94) (xy 31.75 25.4)
 		)
 		(stroke
@@ -1063,26 +1099,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 44.45) (xy 110.49 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50b2a933-6f53-4c29-8c4c-3f9400d9d9fe")
-	)
-	(wire
-		(pts
-			(xy 107.95 53.34) (xy 110.49 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6462f63e-0327-4112-9112-1b0c0161b792")
-	)
-	(wire
-		(pts
 			(xy 151.13 78.74) (xy 148.59 78.74)
 		)
 		(stroke
@@ -1100,6 +1116,16 @@
 			(type default)
 		)
 		(uuid "67a13aeb-f0aa-4c36-bac2-41f3666c2784")
+	)
+	(wire
+		(pts
+			(xy 110.49 50.8) (xy 111.76 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "702ecb96-1ac8-4b55-8a1f-decacbd817a8")
 	)
 	(wire
 		(pts
@@ -1163,16 +1189,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 50.8) (xy 110.49 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2c0a9f5-261f-4872-92bf-f64c927b5a96")
-	)
-	(wire
-		(pts
 			(xy 107.95 80.01) (xy 110.49 80.01)
 		)
 		(stroke
@@ -1219,7 +1235,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fa4d96e2-1011-4136-95a3-6d5fe73fd535")
+		(uuid "f855cf76-70b6-43f4-87fd-62682eb9cd73")
 	)
 	(wire
 		(pts
@@ -1385,7 +1401,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 102.87 41.91 0)
+		(at 102.87 50.8 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1394,7 +1410,7 @@
 		(dnp no)
 		(uuid "40bc2d62-2548-4e63-82c3-d73dd99224a3")
 		(property "Reference" "J4"
-			(at 97.79 43.18 90)
+			(at 97.79 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,7 +1418,7 @@
 			)
 		)
 		(property "Value" "I_PNP"
-			(at 100.33 43.18 90)
+			(at 100.33 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1410,7 +1426,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
-			(at 102.87 41.91 0)
+			(at 102.87 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,7 +1435,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 41.91 0)
+			(at 102.87 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1428,7 +1444,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 102.87 41.91 0)
+			(at 102.87 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1437,7 +1453,7 @@
 			)
 		)
 		(property "PART NUMBERT" "WJ500V-5.08-2P"
-			(at 102.87 41.91 0)
+			(at 102.87 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1507,6 +1523,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 102.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBERT" "WJ500V-5.08-4P"
 			(at 102.87 82.55 0)
 			(effects
 				(font
@@ -1682,7 +1707,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 156.21 62.23 0)
+		(at 156.21 64.77 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1690,7 +1716,7 @@
 		(dnp no)
 		(uuid "5d338e5e-e4ad-4bcd-911e-7a7d23a911c5")
 		(property "Reference" "J12"
-			(at 161.29 64.77 90)
+			(at 161.29 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1699,7 +1725,7 @@
 			)
 		)
 		(property "Value" "O_ANALOG"
-			(at 158.75 68.58 90)
+			(at 158.75 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1708,7 +1734,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-4_P5.08mm"
-			(at 156.21 62.23 0)
+			(at 156.21 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1717,7 +1743,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 62.23 0)
+			(at 156.21 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1726,7 +1752,16 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 156.21 62.23 0)
+			(at 156.21 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBERT" "WJ500V-5.08-4P"
+			(at 156.21 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,6 +1837,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 102.87 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBERT" "WJ500V-5.08-3P"
 			(at 102.87 71.12 0)
 			(effects
 				(font
@@ -2037,7 +2081,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 102.87 50.8 0)
+		(at 102.87 41.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2046,7 +2090,7 @@
 		(dnp no)
 		(uuid "caa9eac9-f63a-4672-b7fe-df4a7b1db152")
 		(property "Reference" "J3"
-			(at 97.79 52.07 90)
+			(at 97.79 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2054,7 +2098,7 @@
 			)
 		)
 		(property "Value" "I_NPN"
-			(at 100.33 52.07 90)
+			(at 100.33 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +2106,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
-			(at 102.87 50.8 0)
+			(at 102.87 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2071,7 +2115,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 50.8 0)
+			(at 102.87 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,7 +2124,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 102.87 50.8 0)
+			(at 102.87 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2089,7 +2133,7 @@
 			)
 		)
 		(property "PART NUMBERT" "WJ500V-5.08-2P"
-			(at 102.87 50.8 0)
+			(at 102.87 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2156,6 +2200,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 156.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBERT" "WJ500V-5.08-3P"
 			(at 156.21 86.36 0)
 			(effects
 				(font
@@ -2370,6 +2423,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 156.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBERT" "WJ500V-5.08-3P"
 			(at 156.21 76.2 0)
 			(effects
 				(font
