@@ -2778,6 +2778,17 @@
 		)
 		(uuid "f1f390f5-327d-4cbf-b871-f56920b876a1")
 	)
+	(hierarchical_label "OUT_1"
+		(shape output)
+		(at 139.7 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ad5c7e1-209b-4d4a-8d91-b8a4c1a9b376")
+	)
 	(hierarchical_label "I2C{SDA,SLCK}"
 		(shape input)
 		(at 20.32 33.02 90)
@@ -2799,17 +2810,6 @@
 				(justify left)
 			)
 		)
-	)
-	(hierarchical_label "OUT_1"
-		(shape output)
-		(at 139.7 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "effd7c36-3332-48e2-a005-501c46cb4bd9")
 	)
 	(symbol
 		(lib_id "power:GND")

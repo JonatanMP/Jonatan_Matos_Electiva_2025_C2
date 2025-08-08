@@ -662,17 +662,6 @@
 		)
 		(uuid "ec91ac61-b6ac-4a72-a6ac-09939aaa83f8")
 	)
-	(hierarchical_label "IN_1"
-		(shape input)
-		(at 34.29 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "43787e8e-95a9-4101-91e6-cfcc59a4e469")
-	)
 	(hierarchical_label "OUT_1"
 		(shape output)
 		(at 58.42 44.45 0)
@@ -682,7 +671,18 @@
 			)
 			(justify left)
 		)
-		(uuid "effd7c36-3332-48e2-a005-501c46cb4bd9")
+		(uuid "baa61196-9a9e-459d-afb3-87f5792cbccd")
+	)
+	(hierarchical_label "IN_1"
+		(shape input)
+		(at 34.29 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e02d3aa6-e6aa-470c-8b40-0f6e6a7cec1b")
 	)
 	(symbol
 		(lib_id "power:GND")

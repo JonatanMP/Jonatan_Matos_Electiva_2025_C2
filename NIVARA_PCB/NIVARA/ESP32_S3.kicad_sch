@@ -1049,16 +1049,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(bus
-		(pts
-			(xy 198.12 118.11) (xy 196.85 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3069cfb8-4355-4c73-adba-ad12d9c8872c")
-	)
 	(wire
 		(pts
 			(xy 158.75 64.77) (xy 161.29 64.77)
@@ -1089,6 +1079,16 @@
 		)
 		(uuid "8345440a-990f-4d7d-b858-8e5fc17c51d6")
 	)
+	(bus
+		(pts
+			(xy 162.56 85.09) (xy 176.53 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a51c151b-38fd-4aa2-9e78-250fb6286710")
+	)
 	(wire
 		(pts
 			(xy 158.75 102.87) (xy 161.29 102.87)
@@ -1098,6 +1098,36 @@
 			(type default)
 		)
 		(uuid "ad99715a-fdde-409c-9f57-c05c90c508ad")
+	)
+	(wire
+		(pts
+			(xy 158.75 113.03) (xy 162.56 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cebcbc2a-dfb7-4e2f-ab1f-0f43dc62cd30")
+	)
+	(wire
+		(pts
+			(xy 158.75 69.85) (xy 161.29 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c3d5ba-f9d4-4805-8850-6f01d561b4a4")
+	)
+	(bus
+		(pts
+			(xy 162.56 88.9) (xy 162.56 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e07fd0ec-9fdd-4362-986f-c954c148adf9")
 	)
 	(wire
 		(pts
@@ -1155,7 +1185,7 @@
 	)
 	(hierarchical_label "RELAY_OUT2"
 		(shape output)
-		(at 199.39 137.16 0)
+		(at 162.56 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1166,7 +1196,7 @@
 	)
 	(hierarchical_label "I2C{SDA,SLCK}"
 		(shape input)
-		(at 198.12 118.11 0)
+		(at 176.53 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1176,7 +1206,7 @@
 		)
 		(uuid "44253e98-15a0-4bb1-bad4-b19998cfde19")
 		(property "I2C" ""
-			(at 198.12 119.38 0)
+			(at 176.53 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,7 +1273,7 @@
 	)
 	(hierarchical_label "RELAY_OUT1"
 		(shape output)
-		(at 199.39 130.81 0)
+		(at 161.29 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)

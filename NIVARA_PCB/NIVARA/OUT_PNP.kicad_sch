@@ -5,20 +5,49 @@
 	(uuid "eefee6eb-4e8d-47cb-bab0-109a66116a17")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "IN_1"
-		(shape input)
-		(at 170.18 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 48.26 58.42) (xy 52.07 58.42)
 		)
-		(uuid "3ec65bd7-20f6-4eac-b1d2-2f7472073a48")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5e5697-a0a3-4b56-9661-35ebb0f620cb")
+	)
+	(wire
+		(pts
+			(xy 44.45 87.63) (xy 52.07 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d06ac3-7029-49b3-9f5d-b82e3b224d5c")
+	)
+	(wire
+		(pts
+			(xy 81.28 58.42) (xy 85.09 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a048aaeb-26c3-4cce-beb4-6b68d99aad2a")
+	)
+	(wire
+		(pts
+			(xy 81.28 87.63) (xy 87.63 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7af1365-7300-46c2-8c23-5ec693740c82")
 	)
 	(hierarchical_label "OUT_2"
 		(shape output)
-		(at 191.77 64.77 0)
+		(at 87.63 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27,20 +56,31 @@
 		)
 		(uuid "6890b06b-8af8-400c-a14e-df508a9e0a68")
 	)
+	(hierarchical_label "IN_1"
+		(shape input)
+		(at 48.26 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a176410-6b29-46b3-bd21-471b2fe8df7b")
+	)
 	(hierarchical_label "OUT_1"
 		(shape output)
-		(at 191.77 57.15 0)
+		(at 85.09 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "c3ac957f-ebf5-48b2-b176-776209f738fd")
+		(uuid "8d33bae0-8e98-45fe-84ba-acff4ea667bc")
 	)
 	(hierarchical_label "IN_2"
 		(shape input)
-		(at 170.18 64.77 180)
+		(at 44.45 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48,5 +88,129 @@
 			(justify right)
 		)
 		(uuid "f3f5cbf9-4188-447d-94db-0cd3cfd619cd")
+	)
+	(sheet
+		(at 52.07 80.01)
+		(size 29.21 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a4982583-545a-4369-875a-3799ab48bca2")
+		(property "Sheetname" "O_PNP1"
+			(at 52.07 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "O_PNP.kicad_sch"
+			(at 52.07 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT" input
+			(at 81.28 87.63 0)
+			(uuid "8f6501e5-4ab6-4fce-99c6-366b6672f2aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN" input
+			(at 52.07 87.63 180)
+			(uuid "d83ab61f-3eb8-41d2-b784-d27b4160a4d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "NIVARA"
+				(path "/6298d7d5-28da-40bf-9586-24a8e5c02b82/7ff0dada-fc46-483c-91ad-b264be8c64cf/83581511-a4ee-4ab3-83b5-847131b17a04"
+					(page "28")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 50.8)
+		(size 29.21 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be02abd5-fa26-4710-8476-ce5d2515ccac")
+		(property "Sheetname" "O_PNP"
+			(at 52.07 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "O_PNP.kicad_sch"
+			(at 52.07 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT" input
+			(at 81.28 58.42 0)
+			(uuid "14ffe181-5196-4026-8eb4-dee19d677ced")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN" input
+			(at 52.07 58.42 180)
+			(uuid "5ff980ec-ae40-40fd-8456-b12b04e0be46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "NIVARA"
+				(path "/6298d7d5-28da-40bf-9586-24a8e5c02b82/7ff0dada-fc46-483c-91ad-b264be8c64cf/83581511-a4ee-4ab3-83b5-847131b17a04"
+					(page "27")
+				)
+			)
+		)
 	)
 )

@@ -748,6 +748,22 @@
     [
       "2499e379-3865-4b11-9a25-41fe3b0aecb0",
       "IN PNP ISOLATE"
+    ],
+    [
+      "810b091e-4bcf-48f8-b7f3-b9f1b9e09f44",
+      "O_NPN1"
+    ],
+    [
+      "62e5c501-aff0-4998-8240-061b2af6ecfc",
+      "O_NPN"
+    ],
+    [
+      "be02abd5-fa26-4710-8476-ce5d2515ccac",
+      "O_PNP"
+    ],
+    [
+      "a4982583-545a-4369-875a-3799ab48bca2",
+      "O_PNP1"
     ]
   ],
   "text_variables": {}

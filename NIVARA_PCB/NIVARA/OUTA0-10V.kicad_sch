@@ -1277,6 +1277,17 @@
 		)
 		(uuid "f3ba0bcd-3c73-4e5f-8f83-e33d889d84a9")
 	)
+	(hierarchical_label "OUT_1"
+		(shape output)
+		(at 107.95 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3730d544-b19a-46ec-ab3e-fc7d9c28063c")
+	)
 	(hierarchical_label "I2C{}"
 		(shape input)
 		(at 21.59 40.64 90)
@@ -1287,17 +1298,6 @@
 			(justify left)
 		)
 		(uuid "7db8fbf6-be8a-416f-b30d-8c8f2d1eaf74")
-	)
-	(hierarchical_label "OUT_1"
-		(shape output)
-		(at 107.95 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "effd7c36-3332-48e2-a005-501c46cb4bd9")
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0603")
