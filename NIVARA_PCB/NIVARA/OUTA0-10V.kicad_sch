@@ -5,144 +5,6 @@
 	(uuid "95b5ec86-542e-45b7-baa0-aa6269324e26")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Diode:SM6T12A"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SM6T12A"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMB"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/sm6t.pdf"
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "600W unidirectional Transil Transient Voltage Suppressor, 12Vrwm, DO-214AA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS voltage suppressor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SMB*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SM6T12A_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SM6T12A_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_Capacitor_AKL:C_0603"
 			(pin_numbers
 				(hide yes)
@@ -377,6 +239,256 @@
 					(at 2.54 2.54 270)
 					(length 0)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_Diode_TVS_AKL:SMF11A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMF11A"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/95faf1e5e821ed1b438500c66c7b0bd9/smf50a.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SOD-123F Unidirectional TVS diode, 11V, 200W, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode unidirectional TVS SMF-A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMF11A_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMF11A_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy -0.381 1.397)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 1.778 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMF11A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SMF11A_1_2"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 0)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -675,7 +787,9 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "GP8201S-TC50-EW_1_1"
+				(pin bidirectional line
 					(at -11.43 2.54 0)
 					(length 2.54)
 					(name "SCLK"
@@ -693,7 +807,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -11.43 0 0)
 					(length 2.54)
 					(name "SDA"
@@ -711,7 +825,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at -11.43 -2.54 0)
 					(length 2.54)
 					(name "NC"
@@ -729,7 +843,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -11.43 -5.08 0)
 					(length 2.54)
 					(name "VCC"
@@ -747,7 +861,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 5.08 180)
 					(length 2.54)
 					(name "EP"
@@ -765,7 +879,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 11.43 2.54 180)
 					(length 2.54)
 					(name "V5V"
@@ -783,7 +897,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 11.43 0 180)
 					(length 2.54)
 					(name "SEL"
@@ -801,7 +915,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 11.43 -2.54 180)
 					(length 2.54)
 					(name "VOUT"
@@ -819,7 +933,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 11.43 -5.08 180)
 					(length 2.54)
 					(name "GND"
@@ -1071,7 +1185,7 @@
 		(at 87.63 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "563d99bc-3e40-4fa2-91a6-22deee88e35c")
+		(uuid "07dedf5e-0353-4674-9dca-2461e69bd27b")
 	)
 	(junction
 		(at 60.96 40.64)
@@ -1085,19 +1199,6 @@
 		(color 0 0 0 0)
 		(uuid "da84438d-ccad-4220-ba58-3029677baed6")
 	)
-	(no_connect
-		(at 33.02 50.8)
-		(uuid "6dab7bdb-3cfc-4170-8c0d-e368f931f688")
-	)
-	(bus_entry
-		(at 21.59 45.72)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b238ee1-4d46-4937-a348-22ec2e1399e6")
-	)
 	(bus_entry
 		(at 21.59 43.18)
 		(size 2.54 2.54)
@@ -1105,7 +1206,16 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "93ab3e89-cd7f-4ca8-9fe1-52ea56224768")
+		(uuid "2bc27d50-9d1c-464a-8788-d6fda30b8909")
+	)
+	(bus_entry
+		(at 21.59 44.45)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93cd7ed5-1dc7-4f92-9ef7-620be7afa321")
 	)
 	(wire
 		(pts
@@ -1117,15 +1227,25 @@
 		)
 		(uuid "0c66f393-b99b-41ef-88c0-6dd858101c65")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 21.59 40.64) (xy 21.59 43.18)
+			(xy 24.13 45.72) (xy 33.02 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3990977c-f2a0-4dc6-8ad1-2af74356d462")
+		(uuid "107c3b2a-00ab-4aba-b50e-5ae927a71a9f")
+	)
+	(wire
+		(pts
+			(xy 24.13 48.26) (xy 33.02 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a72bbf-7b85-4025-8585-70a2fbefb504")
 	)
 	(wire
 		(pts
@@ -1135,7 +1255,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3b39e12a-d273-44da-a839-8d77206c1588")
+		(uuid "1826cebd-bd04-427c-8a05-5f412f14cd3f")
 	)
 	(wire
 		(pts
@@ -1146,6 +1266,16 @@
 			(type default)
 		)
 		(uuid "3ec0e69f-5815-4acd-8c14-ca02cb8ff8be")
+	)
+	(bus
+		(pts
+			(xy 21.59 43.18) (xy 21.59 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88042ec0-39f4-4571-a2c9-b0b336208ba9")
 	)
 	(wire
 		(pts
@@ -1159,7 +1289,7 @@
 	)
 	(bus
 		(pts
-			(xy 21.59 43.18) (xy 21.59 45.72)
+			(xy 21.59 40.64) (xy 21.59 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1189,6 +1319,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 46.99) (xy 24.13 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be4ff569-53bb-43f6-8fc8-7a666cb817e4")
+	)
+	(wire
+		(pts
 			(xy 55.88 45.72) (xy 58.42 45.72)
 		)
 		(stroke
@@ -1196,16 +1336,6 @@
 			(type default)
 		)
 		(uuid "c79d8ea7-8a24-481c-8fb2-f6cd5ad6bb7d")
-	)
-	(wire
-		(pts
-			(xy 24.13 48.26) (xy 33.02 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daa97f09-5984-4048-96b3-b5bf07f77738")
 	)
 	(wire
 		(pts
@@ -1227,15 +1357,15 @@
 		)
 		(uuid "e7a05ab8-af5f-481c-8b6f-85c9bdf8ddd1")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 24.13 45.72) (xy 33.02 45.72)
+			(xy 21.59 44.45) (xy 21.59 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8ccfe26-4ca6-4a57-a5cd-2fa6e98a2636")
+		(uuid "ec1a9ee9-4aea-4de8-a13d-19c3db2d3d9a")
 	)
 	(wire
 		(pts
@@ -1257,25 +1387,25 @@
 		)
 		(uuid "f4453416-c7ae-4f4a-809d-bd2094369407")
 	)
-	(label "I2C.SLCK"
-		(at 33.02 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b6722fb4-9724-4918-ae79-82d0441cbcd5")
-	)
 	(label "I2C.SDA"
-		(at 33.02 48.26 180)
+		(at 33.02 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "f3ba0bcd-3c73-4e5f-8f83-e33d889d84a9")
+		(uuid "3233374d-6cf0-4257-9754-cce50682b9a5")
+	)
+	(label "I2C.SLCK"
+		(at 33.02 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ec8995e-bddf-4682-b752-cfe439aedbad")
 	)
 	(hierarchical_label "OUT_1"
 		(shape output)
@@ -1288,7 +1418,7 @@
 		)
 		(uuid "3730d544-b19a-46ec-ab3e-fc7d9c28063c")
 	)
-	(hierarchical_label "I2C{}"
+	(hierarchical_label "I2C{SDA,SLCK}"
 		(shape input)
 		(at 21.59 40.64 90)
 		(effects
@@ -1298,6 +1428,76 @@
 			(justify left)
 		)
 		(uuid "7db8fbf6-be8a-416f-b30d-8c8f2d1eaf74")
+	)
+	(symbol
+		(lib_id "PCM_Diode_TVS_AKL:SMF11A")
+		(at 87.63 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00c1badf-23a6-4f6d-bc96-046f30d3e50b")
+		(property "Reference" "D6"
+			(at 90.17 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMF11A"
+			(at 90.17 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123F"
+			(at 87.63 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/95faf1e5e821ed1b438500c66c7b0bd9/smf50a.pdf"
+			(at 87.63 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOD-123F Unidirectional TVS diode, 11V, 200W, Alternate KiCAD Library"
+			(at 87.63 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c6e5eb7-7da1-4641-8124-92d98da3d6dd")
+		)
+		(pin "1"
+			(uuid "1f01c821-b158-4f3f-87a3-9774998955bf")
+		)
+		(instances
+			(project ""
+				(path "/6298d7d5-28da-40bf-9586-24a8e5c02b82/7ff0dada-fc46-483c-91ad-b264be8c64cf/27fcba6f-4116-4b57-87c7-0cd3789c6248"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0603")
@@ -1877,76 +2077,6 @@
 			(project "NIVARA"
 				(path "/6298d7d5-28da-40bf-9586-24a8e5c02b82/7ff0dada-fc46-483c-91ad-b264be8c64cf/27fcba6f-4116-4b57-87c7-0cd3789c6248"
 					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SM6T12A")
-		(at 87.63 54.61 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae35f9a7-8474-4ea0-b80c-b6869c65074f")
-		(property "Reference" "D6"
-			(at 90.17 53.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SM6T12A"
-			(at 90.17 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 82.55 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/sm6t.pdf"
-			(at 87.63 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "600W unidirectional Transil Transient Voltage Suppressor, 12Vrwm, DO-214AA"
-			(at 87.63 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c31ae522-3479-4a7a-90e4-28876d327525")
-		)
-		(pin "1"
-			(uuid "892a53e9-956c-44c0-bc48-a1e7fda91105")
-		)
-		(instances
-			(project ""
-				(path "/6298d7d5-28da-40bf-9586-24a8e5c02b82/7ff0dada-fc46-483c-91ad-b264be8c64cf/27fcba6f-4116-4b57-87c7-0cd3789c6248"
-					(reference "D6")
 					(unit 1)
 				)
 			)

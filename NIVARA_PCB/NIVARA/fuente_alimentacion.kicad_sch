@@ -1690,7 +1690,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 72.39) (xy 128.27 77.47)
+			(xy 128.27 72.39) (xy 128.27 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1994,7 +1994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 129.2352 72.39 0)
 			(effects
 				(font
@@ -2590,7 +2590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 124.1552 72.39 0)
 			(effects
 				(font
@@ -2643,7 +2643,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 77.47 0)
+		(at 128.27 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2652,7 +2652,7 @@
 		(fields_autoplaced yes)
 		(uuid "e812a0c6-abbc-4c4d-aad6-7b2e4b9d79c4")
 		(property "Reference" "#PWR01"
-			(at 128.27 83.82 0)
+			(at 128.27 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2661,7 +2661,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 82.55 0)
+			(at 128.27 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,7 +2669,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 77.47 0)
+			(at 128.27 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,7 +2678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 77.47 0)
+			(at 128.27 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2687,7 +2687,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 77.47 0)
+			(at 128.27 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)

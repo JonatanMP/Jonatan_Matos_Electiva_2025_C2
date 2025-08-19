@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 69.85) (xy 80.01 69.85)
+			(xy 74.93 69.85) (xy 80.01 69.85)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 69.85) (xy 46.99 69.85)
+			(xy 40.64 69.85) (xy 45.72 69.85)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +47,7 @@
 	)
 	(hierarchical_label "IN_1"
 		(shape input)
-		(at 43.18 69.85 180)
+		(at 40.64 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -90,7 +90,7 @@
 		(uuid "c3ac957f-ebf5-48b2-b176-776209f738fd")
 	)
 	(sheet
-		(at 46.99 62.23)
+		(at 45.72 62.23)
 		(size 29.21 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,7 +106,7 @@
 		)
 		(uuid "62e5c501-aff0-4998-8240-061b2af6ecfc")
 		(property "Sheetname" "O_NPN"
-			(at 46.99 61.5184 0)
+			(at 45.72 61.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +115,7 @@
 			)
 		)
 		(property "Sheetfile" "O_NPN.kicad_sch"
-			(at 46.99 79.3246 0)
+			(at 45.72 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -124,7 +124,7 @@
 			)
 		)
 		(pin "OUT" input
-			(at 76.2 69.85 0)
+			(at 74.93 69.85 0)
 			(uuid "3d8f83c7-dbeb-4ff6-a1b0-44ebe229d9cd")
 			(effects
 				(font
@@ -134,7 +134,7 @@
 			)
 		)
 		(pin "IN" input
-			(at 46.99 69.85 180)
+			(at 45.72 69.85 180)
 			(uuid "59a0000b-d2c3-47c1-ab77-0900c5fb6f62")
 			(effects
 				(font

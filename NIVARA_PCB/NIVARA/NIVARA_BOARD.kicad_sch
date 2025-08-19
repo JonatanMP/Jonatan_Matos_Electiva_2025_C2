@@ -388,7 +388,7 @@
 	)
 	(bus
 		(pts
-			(xy 116.84 91.44) (xy 111.76 91.44)
+			(xy 111.76 91.44) (xy 116.84 91.44)
 		)
 		(stroke
 			(width 0)
@@ -466,6 +466,16 @@
 		)
 		(uuid "8a96e86b-3871-4202-b1a6-120c3fbc4502")
 	)
+	(bus
+		(pts
+			(xy 111.76 72.39) (xy 111.76 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9939a2cb-d970-42bc-98a4-e2aae7abd202")
+	)
 	(wire
 		(pts
 			(xy 54.61 49.53) (xy 66.04 49.53)
@@ -495,16 +505,6 @@
 			(type default)
 		)
 		(uuid "abe73729-fef2-42ff-99d9-06ef12266344")
-	)
-	(bus
-		(pts
-			(xy 111.76 72.39) (xy 111.76 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac65fac2-0e40-4159-9c8f-8a44347461c0")
 	)
 	(wire
 		(pts
@@ -1368,9 +1368,9 @@
 				(justify right)
 			)
 		)
-		(pin "I2C{}" input
+		(pin "I2C{SDA,SLCK}" input
 			(at 116.84 91.44 180)
-			(uuid "5c9ee6da-a6a7-44b2-9d13-1b5bdf6dd1b5")
+			(uuid "e3817fb3-28c8-436d-b127-cef56b79ac0e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1472,7 +1472,7 @@
 				(justify right)
 			)
 		)
-		(pin "I2C{}" input
+		(pin "I2C{SDA,SLCK}" input
 			(at 116.84 72.39 180)
 			(uuid "641b83a8-c4b9-45c5-bd1f-fdf61dfed052")
 			(effects

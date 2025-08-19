@@ -5,51 +5,27 @@
 	(uuid "f20f342c-ff90-4277-886e-99d8a3e9ff1b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Driver_FET:NCV8402xST"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
+		(symbol "CUSTOM:ZXMS6004FFQTA"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 8.89 0)
+			(property "Reference" "U"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Value" "NCV8402xST"
-				(at -11.43 8.89 0)
+			(property "Value" "ZXMS6004FFQTA"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
-				(at 0 -7.112 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCV8402-D.PDF"
-				(at 7.62 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Self-Protected Low Side Driver with Temperature and Current Limit, SOT−223"
+			(property "Footprint" "easyeda2kicad:SOT-23F_L2.9-W1.8-P0.95-LS2.4-BR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -58,7 +34,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "MOSFET ESD Overcurrent"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C508259.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -67,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?223*"
+			(property "Description" "The DIODES™ ZXMS6004FFQ is a self-protected low side IntelliFET™ MOSFET with logic level input. It integrates overtemperature, overcurrent, overvoltage (active clamp) and ESD protected logic level functionality. The ZXMS6004FFQ is ideal as a general purpose switch driven from 3.3V or 5V microcontrollers in harsh environments where standard MOSFETs are not rugged enough."
 				(at 0 0 0)
 				(effects
 					(font
@@ -76,24 +52,25 @@
 					(hide yes)
 				)
 			)
-			(symbol "NCV8402xST_0_0"
+			(symbol "ZXMS6004FFQTA_1_1"
 				(rectangle
-					(start -10.16 7.62)
-					(end 10.16 -7.62)
+					(start -6.2706 3.81)
+					(end 6.2706 -3.81)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(rectangle
-					(start -5.969 0.508)
-					(end -2.286 -0.508)
+				(polyline
+					(pts
+						(xy -4.41 -1.0629) (xy -4.2425 -1.2192) (xy -3.9132 -1.2192) (xy -3.7429 -1.3783)
+					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.08)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -101,11 +78,11 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 -1.27) (xy -0.635 -0.635) (xy -0.635 0)
+						(xy -4.064 -1.27) (xy -4.318 -1.778) (xy -3.81 -1.778) (xy -4.064 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.08)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -113,11 +90,11 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 -5.842) (xy -7.62 -5.842) (xy -7.62 0) (xy -6.096 0)
+						(xy -4.064 -2.54) (xy -3.81 -2.032) (xy -4.318 -2.032) (xy -4.064 -2.54)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.08)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -125,11 +102,11 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy -2.286 0) (xy -0.889 0)
+						(xy -3.7318 -2.6963) (xy -3.8993 -2.54) (xy -4.2286 -2.54) (xy -4.3989 -2.3809)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.08)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -137,11 +114,11 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 2.54 3.81) (xy 7.62 3.81)
+						(xy -1.778 -1.27) (xy -1.778 0)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.08)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -149,11 +126,11 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 2.54) (xy 7.62 7.62)
+						(xy 0.2038 -1.7779) (xy 0.0894 -1.6969) (xy 0.0894 -1.87) (xy 0.2121 -1.789)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.08)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -161,11 +138,11 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 2.54) (xy 7.62 -7.62)
+						(xy 0.254 -1.778) (xy -0.508 -1.778)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.08)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -173,461 +150,263 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -5.842) (xy -0.635 -5.842) (xy -0.635 -4.572)
+						(xy 0.4263 2.5436) (xy 0.5938 2.3873) (xy 0.9231 2.3873) (xy 1.0934 2.2282)
+					)
+					(stroke
+						(width 0.08)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.254) (xy 0.762 3.048) (xy 5.08 3.048)
+					)
+					(stroke
+						(width 0.08)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.762 -0.254)
+					(mid 0.508 0)
+					(end 0.762 0.254)
+					(stroke
+						(width 0.08)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.524) (xy 0.762 -0.254)
+					)
+					(stroke
+						(width 0.08)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.7723 2.3365) (xy 0.5183 1.8285) (xy 1.0263 1.8285) (xy 0.7723 2.3365)
+					)
+					(stroke
+						(width 0.08)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.7723 1.0665) (xy 1.0263 1.5745) (xy 0.5183 1.5745) (xy 0.7723 1.0665)
+					)
+					(stroke
+						(width 0.08)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.1045 0.9102) (xy 0.937 1.0665) (xy 0.6077 1.0665) (xy 0.4374 1.2256)
+					)
+					(stroke
+						(width 0.08)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 0) (xy -6.35 0)
+					)
+					(stroke
+						(width 0.08)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 2.286 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0.08)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 0) (xy 3.048 -1.016) (xy 2.54 -1.016) (xy 2.54 -1.778) (xy 3.048 -1.778) (xy 3.048 -3.302)
+					)
+					(stroke
+						(width 0.08)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 0) (xy 2.794 0)
+					)
+					(stroke
+						(width 0.08)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 -1.016) (xy 3.556 1.016)
+					)
+					(stroke
+						(width 0.08)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.9129 -0.0055) (xy 4.4209 0.2485) (xy 4.4209 -0.2595) (xy 3.9129 -0.0055)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
 						(type none)
 					)
 				)
-				(text "Limit"
-					(at -1.524 -3.429 0)
+				(polyline
+					(pts
+						(xy 5.08 -1.016) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.08)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.302) (xy -4.064 -3.302) (xy -4.064 0)
+					)
+					(stroke
+						(width 0.08)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.81) (xy 5.08 -1.016) (xy 3.81 -1.016) (xy 3.81 1.016) (xy 5.08 1.016) (xy 5.08 3.81)
+					)
+					(stroke
+						(width 0.08)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text_box "temperature\ncurrent\nOver-Protection"
+					(at -3.048 -1.27 0)
+					(size 2.54 -1.016)
+					(margins 1.016 1.016 1.016 1.016)
+					(stroke
+						(width 0.08)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
 					(effects
 						(font
-							(size 0.5334 0.5334)
+							(size 0.2 0.2)
 						)
 					)
 				)
-				(text "Temp & Current"
-					(at -1.27 -2.286 0)
+				(text_box "Logic"
+					(at 0.254 -1.524 0)
+					(size 1.016 -0.508)
+					(margins 1.016 1.016 1.016 1.016)
+					(stroke
+						(width 0.08)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
 					(effects
 						(font
-							(size 0.5334 0.5334)
+							(size 0.2 0.2)
 						)
 					)
 				)
-			)
-			(symbol "NCV8402xST_0_1"
-				(polyline
-					(pts
-						(xy -7.62 0) (xy -10.16 0)
-					)
+				(text_box "dV/dt"
+					(at 1.778 0.2332 0)
+					(size 1.016 -0.4872)
+					(margins 1.016 1.016 1.016 1.016)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.08)
+						(type solid)
 					)
 					(fill
 						(type none)
 					)
-				)
-				(rectangle
-					(start -5.08 -1.27)
-					(end 2.54 -4.572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -3.937) (xy 2.667 -3.937)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NCV8402xST_1_1"
-				(polyline
-					(pts
-						(xy -8.128 -1.778) (xy -8.001 -1.905) (xy -7.239 -1.905) (xy -7.112 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -7.62 0)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -1.905) (xy -8.001 -2.54) (xy -7.239 -2.54) (xy -7.62 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -3.683) (xy -7.239 -3.048) (xy -8.001 -3.048) (xy -7.62 -3.683)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.112 -3.81) (xy -7.239 -3.683) (xy -8.001 -3.683) (xy -8.128 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.635 0)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -0.635 -5.842)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 3.048) (xy 2.159 2.921) (xy 2.921 2.921) (xy 3.048 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.921) (xy 2.159 2.286) (xy 2.921 2.286) (xy 2.54 2.921)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.143) (xy 2.921 1.778) (xy 2.159 1.778) (xy 2.54 1.143)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.334 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 1.016) (xy 2.921 1.143) (xy 2.159 1.143) (xy 2.032 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.334 1.905) (xy 5.334 -1.905) (xy 5.334 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.286) (xy 5.842 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 1.778) (xy 7.62 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 0.508) (xy 5.842 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 -1.27) (xy 5.842 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 -1.778) (xy 7.62 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.096 0) (xy 7.112 0.381) (xy 7.112 -0.381) (xy 6.096 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 6.731 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 3.81)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 1.778)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -1.778) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -1.778) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -1.778) (xy 8.382 -1.778) (xy 8.382 1.778) (xy 7.62 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 -1.778)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 7.62 -3.937)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 7.62 -5.842)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.874 0.508) (xy 8.001 0.381) (xy 8.763 0.381) (xy 8.89 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.382 0.381) (xy 8.001 -0.254) (xy 8.763 -0.254) (xy 8.382 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+					(effects
+						(font
+							(size 0.2 0.2)
+						)
 					)
 				)
 				(pin input line
-					(at -12.7 0 0)
+					(at -8.89 0 0)
 					(length 2.54)
-					(name "G"
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -643,26 +422,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 10.16 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 270)
+					(at 5.08 6.35 270)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -671,7 +431,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -680,7 +440,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -10.16 90)
+					(at 5.08 -6.35 90)
 					(length 2.54)
 					(name "S"
 						(effects
@@ -689,7 +449,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1042,7 +802,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 52.07) (xy 81.28 52.07)
+			(xy 76.2 52.07) (xy 87.63 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1062,7 +822,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 35.56) (xy 101.6 41.91)
+			(xy 101.6 35.56) (xy 101.6 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1072,7 +832,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 67.31) (xy 101.6 62.23)
+			(xy 101.6 58.42) (xy 101.6 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1407,17 +1167,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Driver_FET:NCV8402xST")
-		(at 93.98 52.07 0)
+		(lib_id "CUSTOM:ZXMS6004FFQTA")
+		(at 96.52 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ae115749-5c2e-41fe-870c-a1df2c32f07d")
-		(property "Reference" "Q5"
-			(at 105.41 50.7999 0)
+		(uuid "89dd81aa-ae7d-4634-9a9d-400d1222ab35")
+		(property "Reference" "U14"
+			(at 104.14 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1425,8 +1185,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NCV8402xST"
-			(at 105.41 53.3399 0)
+		(property "Value" "ZXMS6004FFQTA"
+			(at 104.14 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1434,8 +1194,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
-			(at 93.98 59.182 0)
+		(property "Footprint" "easyeda2kicad:SOT-23F_L2.9-W1.8-P0.95-LS2.4-BR"
+			(at 96.52 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1443,8 +1203,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCV8402-D.PDF"
-			(at 101.6 52.07 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C508259.pdf"
+			(at 96.52 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1452,8 +1212,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Self-Protected Low Side Driver with Temperature and Current Limit, SOT−223"
-			(at 93.98 52.07 0)
+		(property "Description" "The DIODES™ ZXMS6004FFQ is a self-protected low side IntelliFET™ MOSFET with logic level input. It integrates overtemperature, overcurrent, overvoltage (active clamp) and ESD protected logic level functionality. The ZXMS6004FFQ is ideal as a general purpose switch driven from 3.3V or 5V microcontrollers in harsh environments where standard MOSFETs are not rugged enough."
+			(at 96.52 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,25 +1222,22 @@
 			)
 		)
 		(pin "3"
-			(uuid "a30ae432-25b7-44e3-8731-7e36e512fcf6")
-		)
-		(pin "1"
-			(uuid "4290eef3-e9c2-402a-86aa-04baa50840e0")
+			(uuid "3431944f-0946-4935-bfb0-a00d2ddd2a56")
 		)
 		(pin "2"
-			(uuid "5d03e845-4118-4587-8b0b-8c0e7635b419")
+			(uuid "558175c0-161d-4c2a-9166-3cea74f033b7")
 		)
-		(pin "4"
-			(uuid "df521fc0-8550-45a2-8c4a-40ab6284ad60")
+		(pin "1"
+			(uuid "f6dc3f76-e2db-4853-94db-9b0b6174970d")
 		)
 		(instances
 			(project ""
 				(path "/6298d7d5-28da-40bf-9586-24a8e5c02b82/7ff0dada-fc46-483c-91ad-b264be8c64cf/e83b750d-d99e-4d1f-827c-e43e7f4ff994/62e5c501-aff0-4998-8240-061b2af6ecfc"
-					(reference "Q8")
+					(reference "U15")
 					(unit 1)
 				)
 				(path "/6298d7d5-28da-40bf-9586-24a8e5c02b82/7ff0dada-fc46-483c-91ad-b264be8c64cf/e83b750d-d99e-4d1f-827c-e43e7f4ff994/810b091e-4bcf-48f8-b7f3-b9f1b9e09f44"
-					(reference "Q5")
+					(reference "U14")
 					(unit 1)
 				)
 			)

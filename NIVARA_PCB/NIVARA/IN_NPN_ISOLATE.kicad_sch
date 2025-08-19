@@ -1181,7 +1181,9 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "AT3H4A-CUH-S_1_1"
+				(pin passive line
 					(at -16.51 3.81 0)
 					(length 5.08)
 					(name "A/C"
@@ -1199,7 +1201,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -16.51 -2.54 0)
 					(length 5.08)
 					(name "C/A"
@@ -1217,7 +1219,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 2.54 180)
 					(length 5.08)
 					(name "C"
@@ -1235,7 +1237,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -2.54 180)
 					(length 5.08)
 					(name "E"
@@ -1497,7 +1499,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 104.14) (xy 105.41 104.14)
+			(xy 102.87 104.14) (xy 104.14 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1517,6 +1519,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 102.87) (xy 137.16 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4f9a04-a118-469e-be5e-940e2eec42a6")
+	)
+	(wire
+		(pts
 			(xy 154.94 93.98) (xy 149.86 93.98)
 		)
 		(stroke
@@ -1527,7 +1539,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 102.87) (xy 137.16 99.06)
+			(xy 135.89 102.87) (xy 135.89 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1537,7 +1549,37 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 104.14) (xy 105.41 99.06)
+			(xy 135.89 93.98) (xy 137.16 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "245e4f8e-7c2f-4c75-927a-b9568ddde5df")
+	)
+	(wire
+		(pts
+			(xy 135.89 92.71) (xy 135.89 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a100676-e9ba-4849-ad88-e636133bb34f")
+	)
+	(wire
+		(pts
+			(xy 102.87 91.44) (xy 102.87 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8c3f6f-9709-48b5-bca3-e1b1a9f7ba10")
+	)
+	(wire
+		(pts
+			(xy 104.14 104.14) (xy 104.14 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1617,7 +1659,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 92.71) (xy 105.41 92.71)
+			(xy 102.87 91.44) (xy 104.14 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1808,7 +1850,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:AT3H4A-CUH-S")
-		(at 121.92 96.52 0)
+		(at 120.65 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1817,7 +1859,7 @@
 		(fields_autoplaced yes)
 		(uuid "283bf829-ca2e-4919-b27b-31af09e9a5f1")
 		(property "Reference" "U4"
-			(at 121.16 85.09 0)
+			(at 119.89 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,7 +1867,7 @@
 			)
 		)
 		(property "Value" "AT3H4A-CUH-S"
-			(at 121.16 87.63 0)
+			(at 119.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1833,7 +1875,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SSOP-4_L2.7-W4.6-P1.27-LS7.0-TL"
-			(at 121.92 106.68 0)
+			(at 120.65 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1842,7 +1884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 96.52 0)
+			(at 120.65 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,7 +1893,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 96.52 0)
+			(at 120.65 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1860,7 +1902,7 @@
 			)
 		)
 		(property "LCSC Part" "C20612634"
-			(at 121.92 109.22 0)
+			(at 120.65 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +1911,7 @@
 			)
 		)
 		(property "PART NUMBERT" "AT3H4A-CUH-S"
-			(at 121.92 96.52 0)
+			(at 120.65 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)

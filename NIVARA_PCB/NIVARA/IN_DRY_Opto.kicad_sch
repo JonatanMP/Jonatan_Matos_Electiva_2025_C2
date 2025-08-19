@@ -1181,7 +1181,9 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "AT3H4A-CUH-S_1_1"
+				(pin passive line
 					(at -16.51 3.81 0)
 					(length 5.08)
 					(name "A/C"
@@ -1199,7 +1201,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -16.51 -2.54 0)
 					(length 5.08)
 					(name "C/A"
@@ -1217,7 +1219,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 2.54 180)
 					(length 5.08)
 					(name "C"
@@ -1235,7 +1237,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -2.54 180)
 					(length 5.08)
 					(name "E"

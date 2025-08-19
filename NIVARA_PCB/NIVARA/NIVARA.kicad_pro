@@ -756,14 +756,6 @@
     [
       "62e5c501-aff0-4998-8240-061b2af6ecfc",
       "O_NPN"
-    ],
-    [
-      "be02abd5-fa26-4710-8476-ce5d2515ccac",
-      "O_PNP"
-    ],
-    [
-      "a4982583-545a-4369-875a-3799ab48bca2",
-      "O_PNP1"
     ]
   ],
   "text_variables": {}

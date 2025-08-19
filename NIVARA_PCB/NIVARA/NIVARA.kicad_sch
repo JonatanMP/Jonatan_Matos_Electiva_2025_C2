@@ -961,12 +961,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 110.49 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "815f8b67-8b93-4729-a0d5-00441e986cea")
-	)
 	(wire
 		(pts
 			(xy 107.95 53.34) (xy 110.49 53.34)
@@ -1116,16 +1110,6 @@
 			(type default)
 		)
 		(uuid "67a13aeb-f0aa-4c36-bac2-41f3666c2784")
-	)
-	(wire
-		(pts
-			(xy 110.49 50.8) (xy 111.76 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "702ecb96-1ac8-4b55-8a1f-decacbd817a8")
 	)
 	(wire
 		(pts
