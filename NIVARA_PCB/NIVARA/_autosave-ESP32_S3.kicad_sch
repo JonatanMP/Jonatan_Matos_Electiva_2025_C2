@@ -1566,6 +1566,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 92.71) (xy 158.75 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1507d794-6fee-45d5-b49c-190446238da8")
+	)
+	(wire
+		(pts
 			(xy 158.75 74.93) (xy 181.61 74.93)
 		)
 		(stroke
@@ -1806,6 +1816,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 95.25) (xy 158.75 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f54788-dad2-43e4-8103-0bd7b282e092")
+	)
+	(wire
+		(pts
 			(xy 231.14 25.4) (xy 231.14 26.67)
 		)
 		(stroke
@@ -1985,17 +2005,6 @@
 		)
 		(uuid "01137e04-f950-4a74-930f-0d4ed5f96617")
 	)
-	(hierarchical_label "DRY_IN2"
-		(shape input)
-		(at 27.94 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1d2ac76b-2775-463e-a991-a8c378295b80")
-	)
 	(hierarchical_label "RX"
 		(shape bidirectional)
 		(at 177.8 118.11 0)
@@ -2050,6 +2059,17 @@
 			(justify right)
 		)
 		(uuid "3fcf6cef-7175-4a41-80a5-0595d92cc7bf")
+	)
+	(hierarchical_label "DRY_IN1"
+		(shape input)
+		(at 163.83 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "500a7f12-ba91-45d9-b998-d9ff1f6db9d2")
 	)
 	(hierarchical_label "NPN_OUT2"
 		(shape output)
@@ -2117,6 +2137,17 @@
 		)
 		(uuid "a10b1555-c4ee-4d44-84ff-a375fd82ac98")
 	)
+	(hierarchical_label "DRY_IN2"
+		(shape input)
+		(at 163.83 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba1d2771-9f45-4b3e-9831-cde6af99c340")
+	)
 	(hierarchical_label "I2C{SDA,SLCK}"
 		(shape input)
 		(at 191.77 69.85 90)
@@ -2160,17 +2191,6 @@
 			(justify left)
 		)
 		(uuid "cefa7553-27b8-4e13-842a-855861b93bb6")
-	)
-	(hierarchical_label "DRY_IN1"
-		(shape input)
-		(at 27.94 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ec5ea7c0-ae38-48d0-a770-fd0c017c6bad")
 	)
 	(hierarchical_label "A_IN0_10"
 		(shape input)
